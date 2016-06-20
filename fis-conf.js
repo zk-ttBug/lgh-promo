@@ -1,0 +1,1 @@
+fis.olpm('vipme_oam', fis.olpm.PACK_TYPE_INLINE);

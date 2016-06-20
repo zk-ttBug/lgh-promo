@@ -1,0 +1,20 @@
+<div class="t2i-in-row">
+	<div class="t2i-img-item">
+		<%if(img1.href){ %>
+		 	<a href="<%= img1.href%>">
+		        <img src="<%= img1.imgUrl %>" style="width: 100%;"/>
+		    </a>
+		<%}else{%>  
+	        <img src="<%= img1.imgUrl %>" style="width: 100%;"/>
+	    <%}%>
+	</div>
+   	<div class="t2i-img-item">
+   		<%if(img2.href){ %>
+		    <a href="<%= img2.href%>">
+		        <img src="<%= img2.imgUrl %>" style="width: 100%;"/>
+		    </a>
+		<%}else{%>  
+	        <img src="<%= img2.imgUrl %>" style="width: 100%;"/>
+	    <%}%>
+	</div>
+</div>

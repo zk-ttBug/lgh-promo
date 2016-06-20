@@ -1,0 +1,9 @@
+<div class="wap_1col_img">
+    <%if(href){ %>
+        <a href="<%= href? href : ""%>">
+            <img src="<%= imgUrl %>" width="<%= width%>"/>
+        </a>
+    <%}else{%>  
+        <img src="<%= imgUrl %>" width="<%= width%>"/>
+    <%}%>
+</div>
