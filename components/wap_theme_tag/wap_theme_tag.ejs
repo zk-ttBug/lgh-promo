@@ -1,0 +1,24 @@
+<% links.forEach(function(item){ %>
+<div class="wap-theme-tags-wrap" name="wap_theme_tag">
+    <ul>
+        <% if(item.theme){ %>
+        <li class="wap-bg-<%= item.theme.color %> wap-theme-list">
+            <a title="<%=item.theme.name%>" <%if(item.theme.href){%>href=<%=item.theme.href%><%}%>>
+                <div class="wap-name wap-font-<%= item.theme.color %>"><%= item.theme.name %></div>
+            </a>
+        </li>
+        <% } %>
+        <% if(item.tags){ %>
+        <% item.tags.forEach(function(tag){ %>
+        <li <%if(background){%>class="wap-bg-list"<%}%>>
+            <a title="<%=tag.title%>"  <%if(tag.href){%>href="<%=tag.href%>"<%}%><%if(tag.color){%> class="wap-tag-<%=tag.color%>"<%}%>><%= tag.title %></a>
+        </li>
+        <% }) %>
+        <% } %>
+    </ul>
+</div>
+<% }) %>
+<%if(bottom == true){%>
+<div class="wap-bottom"></div>
+<%}%>
+
