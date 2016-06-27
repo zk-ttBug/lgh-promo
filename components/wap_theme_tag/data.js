@@ -27,6 +27,7 @@ module.exports = {
                 },
                 {
                     href:"#",
+                    color:"red",
                     title:"达能"
                 }
             ]
@@ -36,6 +37,7 @@ module.exports = {
             tags:[
                 {
                     href:"#",
+                    color:"red",
                     title:"摇铃"
                 },
                 {
@@ -55,6 +57,7 @@ module.exports = {
                 },
                 {
                     href:"#",
+                    color:"red",
                     title:"爬行垫"
                 }
             ]
