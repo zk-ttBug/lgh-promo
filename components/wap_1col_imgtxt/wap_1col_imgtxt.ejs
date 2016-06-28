@@ -1,0 +1,18 @@
+<div>
+    <%list.forEach(function(item){%>
+    <a class="item product-detail" href="<%=item.url%>">
+        <div class="picture-wrapper">
+            <div class="picture" >
+                <img src="<%=item.img%>" width="100%">
+            </div>
+        </div>
+        <div class="info">
+            <div class="title line-clamp-2 text-lg"><%=item.title%></div>
+            <div class="text-attention text-lg"><%=item.price%></div>
+            <div class="x-flex">
+                <span class="x-flex-1 line-clamp-1 text-abstract" style="background-color: <%=item.color%>;color:<%=item.fontColor%>"><%=item.tag%></span>
+            </div>
+        </div>
+    </a>
+    <%})%>
+</div>
