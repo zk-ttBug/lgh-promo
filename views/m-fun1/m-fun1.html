@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 控制html解析、移动标记相关 -->
+    <meta charset="UTF-8">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <!-- IOS特定的meta -->
+    <meta content="telephone=no" name="format-detection">
+    <title>老广汇糕点活动| 食在广州</title>
+    <!-- 针对特定的url进行dns预解析 -->
+    <link rel="stylesheet" type="text/css" href="../lib/stylus/m-common.styl?__inline">
+    <link href="../lib/swiper/css/swiper.min.css" rel="stylesheet">
+</head>
+<body>
+{{{unit height="150px" name="wap_head" data="data1"}}}
+{{{unit height="150px" name="wap_slider_banner"}}}
+{{{unit height="150px" name="wap_space" data="data1"}}}
+{{{unit height="150px" name="wap_1col_imgtxt"}}}
+{{{unit height="150px" name="wap_theme_title"}}}
+{{{unit height="150px" name="wap_space" data="data1"}}}
+{{{unit height="150px" name="wap_2col_img" data="data1"}}}
+{{{unit height="150px" name="wap_2col_text" data="data1"}}}
+{{{unit height="150px" name="wap_space" data="data1"}}}
+{{{unit height="150px" name="wap_theme_title" data="data1"}}}
+{{{unit height="150px" name="wap_space" data="data1"}}}
+{{{unit height="150px" name="wap_2col_img" data="data2"}}}
+{{{unit height="150px" name="wap_2col_text" data="data2"}}}
+{{{unit height="150px" name="wap_theme_tag"}}}
+</body>
+<footer>
+    <script src="../lib/swiper/js/swiper.min.js"></script>
+    <script type="text/javascript" src="../lib/scrat.js"></script>
+    <script src="../lib/anchor.js?__inline"></script>
+    <!--[SCRIPTS]-->
+    <script>
+        /**
+         *@require /components/wap_slider_banner/wap_slider_banner.js
+         */
+        require.async([
+            'components/wap_slider_banner/wap_slider_banner.js',
+        ], function (wap_slider_banner){
+
+        });
+    </script>
+</footer>
+</html>

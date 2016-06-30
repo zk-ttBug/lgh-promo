@@ -1,0 +1,10 @@
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <% list.forEach(function(item){%>
+            <a href="<%= item.url%>" class="swiper-slide"><img src="<%= item.img%>" style="width: 100%"></a>
+        <%})%>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
