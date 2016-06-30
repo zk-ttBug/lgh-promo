@@ -1,10 +1,10 @@
 module.exports = {
 	img1: {
-		imgUrl: "", // 左边图片路径
-		href: ""// 左边图片超链接
+		imgUrl: "http://o9fs1vs45.bkt.clouddn.com/cake1.jpg", // 左边图片路径
+		href: "http://www.baidu.com" // 左边图片超链接,
 	},
 	img2: {
-		imgUrl: "", // 右边图片路径
-		href: "" // 右边图片超链接
+		imgUrl: "http://o9fs1vs45.bkt.clouddn.com/cake2.jpg", // 右边图片路径
+		href: "http://www.baidu.com" // 右边图片超链接
 	}
 };
