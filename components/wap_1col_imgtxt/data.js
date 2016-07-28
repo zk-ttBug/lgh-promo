@@ -1,24 +1,27 @@
 module.exports = {
     list:[{
-        img:'http://o9fs1vs45.bkt.clouddn.com/bread1.jpg',
-        title:'超值套餐，建议单人使用，包间免费',
-        price:'20.99',
-        tag:'巧克力',
-        color:'#4e342e',
-        fontColor:'#fff'
+        img:'http://o9fs1vs45.bkt.clouddn.com//m-fun2/product/pro1-min.png',
+        title:'超值-红豆酥皮',
+        price:'2.50',
+        tag:'小食',
+        color:'#f57f17',
+        fontColor:'#fff',
+        url:'https://wap.koudaitong.com/v2/goods/27a5yeh5mdapq'
     }, {
-        img:'http://o9fs1vs45.bkt.clouddn.com/bread2.jpg',
-        title:'超值套餐，建议单人使用，包间免费',
-        price:'18.99',
-        tag:'大麦',
+        img:'http://o9fs1vs45.bkt.clouddn.com//m-fun2/product/pro2-min.png',
+        title:'实惠-肠仔包',
+        price:'3.50',
+        tag:'面包',
         color:'#ff8f00',
-        fontColor:'#fff'
+        fontColor:'#fff',
+        url:'https://wap.koudaitong.com/v2/goods/3eqjbadx2sola'
     }, {
-        img:'http://o9fs1vs45.bkt.clouddn.com/bread3.jpg',
-        title:'绘糖创意生日蛋糕1个，约6英寸，选定',
-        price:'26.99',
-        tag:'奶油',
-        color:'',
-        fontColor:'#000'
+        img:'http://o9fs1vs45.bkt.clouddn.com//m-fun2/product/pro3-min.png',
+        title:'传统叉烧酥',
+        price:'3.50',
+        tag:'小食',
+        color:'#d32f2f',
+        fontColor:'#fff',
+        url:'https://wap.koudaitong.com/v2/goods/27bcqlk9v4n9a'
     }]
 };
