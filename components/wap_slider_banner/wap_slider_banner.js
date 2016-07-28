@@ -1,5 +1,7 @@
-var swiper = new Swiper('.swiper-container', {
-    pagination: '.swiper-pagination',
-    paginationClickable: true,
-    autoplay:3000
-});
+module.exports = function () {
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay:3000
+    });
+};
